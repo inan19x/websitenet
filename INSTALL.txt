@@ -1,0 +1,6 @@
+How to use this apps:
+1. Copy "websitenet" folder to your webserver directory
+2. Import the database
+3. Make proper change to database connect config in "db.inc.php" file
+4. Enjoy!
+
