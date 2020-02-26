@@ -6,9 +6,9 @@ if(!isset($_SESSION['admin'])){
 }
 else{
 $p=md5($_POST['p']);
-$token=base64_decode($_POST['token']);
+$u=md5($_POST['u']);
 include "../db.inc.php";
-$sql="UPDATE users SET password='$p' WHERE role='$token'";
+$sql="UPDATE users SET password='$p' WHERE username='$u'";
 mysql_query($sql) or die (mysql_error());
 header("Location:index.php");
 }
