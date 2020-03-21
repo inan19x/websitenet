@@ -1,7 +1,7 @@
 <?php
 $host="localhost";
 $username="root";
-$password="indonesia";
+$password="";
 $db_name="websitenet";
 
 mysql_connect("$host", "$username", "$password")or die(mysql_error()); 

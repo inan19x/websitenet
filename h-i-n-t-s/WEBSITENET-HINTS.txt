@@ -18,7 +18,7 @@ WEBSITENET HINTS
 captcha-crack.php
 =====================
 <?php
-$url = "http://localhost/websitenet/guestbook.php";
+$url = "http://[websitenet]/guestbook.php";
 $str = file_get_contents($url);
 $pos1 = strpos($str,"TheCaptcha");
 $x = substr($str,$pos1+11,-542);

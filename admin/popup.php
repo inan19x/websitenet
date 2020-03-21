@@ -1,9 +1,9 @@
 <?php
-//session_start();
-//if (!isset($_SESSION['admin'])) {
-//	header("Location:index.php");
-//	die;
-//}
+session_start();
+if (!isset($_SESSION['admin'])) {
+	header("Location:index.php");
+	die;
+}
 ?>
 <html>
 <head><title>Upload Admin Vulnerable WebApps</title></head>

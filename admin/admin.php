@@ -62,7 +62,7 @@ if($_SESSION['username']=="admin")
 Change password feature
 <form name="changepass" method="post" action="changepass.php">
 <input type="password" name="p" />
-<input type="hidden" name="u" value="<?php echo $_SESSION['username']; ?>" />
+<input type="hidden" name="token" value="<?php echo base64_encode($_SESSION['role']); ?>" />
 <input type="submit" /><br/>
 </form>
 </td>

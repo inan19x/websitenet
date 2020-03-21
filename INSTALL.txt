@@ -3,4 +3,3 @@ How to use this apps:
 2. Import the database
 3. Make proper change to database connect config in "db.inc.php" file
 4. Enjoy!
-
