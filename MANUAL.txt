@@ -1,0 +1,10 @@
+Credentials to login to registered zone (Admin Area):
+
+http://[websitenet]/admin/
+
+=======================
+Username;Password;Role
+=======================
+admin;thisisaverylongpasswordhackitifyoucan;Administrator
+webmaster;indonesia;Non-Administrator
+
