@@ -12,4 +12,4 @@ What technique you can show using this apps:<br/>
 -Javascript DOM read-only form<br/>
 -Form upload attack<br/>
 
-Feel free to read the e-book "First Time Hacking.pdf" (in Bahasa Indonesia) which included in this project.
+You may also read the e-book "FIRST TIME HACKING.pdf" (in Bahasa Indonesia) which included in this repository.
