@@ -65,7 +65,8 @@ if(!empty($_GET["x"]))
 <tr>
 <td valign="top" style="color:#828282;">Date/Time</td>
 <td valign="top">:</td>
-<td><input name="date" type="text" id="date" size="40" readonly value="<?php echo date("d-M-y, h:i:s")?>" style="background-color:#f0f0f0;color:#999;" class="form-control"/></td>
+<td><input name="date" type="text" id="date" size="40" readonly value="<?php date_default_timezone_set('America/Los
+_Angeles'); echo date("d-M-y, h:i:s")?>" style="background-color:#f0f0f0;color:#999;" class="form-control"/></td>
 </tr>
 <tr>
 <?php
