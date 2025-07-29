@@ -1,7 +1,7 @@
 # websitenet
-Websitenet is a simple web apps that can be used for everyone to show an web-apps-hacking-demo for free. Do not use this apps at your production environment.
+Websitenet is a simple web app which can be used for everyone to show a web-apps-hacking-demo for free. Do not use this apps at your production environment.
 
-What technique you can show using this apps:<br/>
+What technique you can demonstrate with this app:<br/>
 -SQL injection<br/>
 -Persistent XSS Attack<br/>
 -Non-persistent XSS Attack<br/>
